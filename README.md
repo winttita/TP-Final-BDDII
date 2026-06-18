@@ -37,7 +37,7 @@ El esquema estrella (Star Schema) diseñado para este Data Warehouse consta de d
 - `DIM_GEO` — geografía con región, estado y código postal.
 - `DIM_DISCOUNT` — descuentos disponibles con monto mínimo de factura, porcentaje y rango de vigencia.
 
-![Modelo Dimensional](./Trabajo%20Practico/Modelo%20TP%20version%204_2026-06-11T11_16_51.288Z.png)
+![Modelo Dimensional](./modelo-dimensional.png)
 
 ## Proceso ETL
 
@@ -69,18 +69,17 @@ El tablero construido en Power BI (`TDC_TPBBDD2.pbix`) responde a los siguientes
 
 ```
 TP-Final-BDDII/
-├── Trabajo Practico/
-│   ├── ETL_TDC_DataWarehouse/          # Proyecto SSIS (Visual Studio)
-│   │   └── Integration Services Project1/
-│   │       └── Package.dtsx            # Paquete ETL principal
-│   ├── Fuentes de Datos TP Final/      # Datos de origen
-│   │   ├── Area Comercializacion/      # XML de clientes, ventas SQL Server y MySQL
-│   │   ├── Area Produccion/            # Productos y stock (.txt)
-│   │   └── Area Recursos Humanos/      # Empleados y feriados (.xls / .csv)
-│   ├── Enunciado y Documentación Adicional/
-│   ├── TDC_TPBBDD2.pbix                # Tablero Power BI
-│   ├── TDC_DataWarehouse_NOCAMBIARNOMBRE.7z  # Backup comprimido del DW
-│   └── Modelo TP version 4_*.png       # Diagrama del modelo dimensional
+├── ETL_TDC_DataWarehouse/              # Proyecto SSIS (Visual Studio)
+│   └── Integration Services Project1/
+│       └── Package.dtsx                # Paquete ETL principal
+├── Fuentes de Datos TP Final/          # Datos de origen
+│   ├── Area Comercializacion/          # XML de clientes, ventas SQL Server y MySQL
+│   ├── Area Produccion/                # Productos y stock (.txt)
+│   └── Area Recursos Humanos/          # Empleados y feriados (.xls / .csv)
+├── Enunciado y Documentación Adicional/
+├── TDC_TPBBDD2.pbix                    # Tablero Power BI
+├── TDC_DataWarehouse_NOCAMBIARNOMBRE.7z # Backup comprimido del DW
+└── modelo-dimensional.png              # Diagrama del modelo dimensional
 ```
 
 ## Stack tecnológico
@@ -93,7 +92,7 @@ TP-Final-BDDII/
 
 ## Integrantes del grupo
 
-FRANK, Maximiliano
-WINTER, Federico
+- FRANK, Maximiliano
+- WINTER, Federico
 
 Trabajo realizado en grupo como parte de la cursada 2026.
