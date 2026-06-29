@@ -37,7 +37,7 @@ El esquema estrella (Star Schema) diseñado para este Data Warehouse consta de d
 - `DIM_GEO` — geografía con región, estado y código postal.
 - `DIM_DISCOUNT` — descuentos disponibles con monto mínimo de factura, porcentaje y rango de vigencia.
 
-![Modelo Dimensional](./modelo-dimensional.png)
+![Modelo Dimensional](./Modelo%20TP%20version%204_final.png)
 
 ## Proceso ETL
 
